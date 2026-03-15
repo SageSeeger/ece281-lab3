@@ -179,11 +179,11 @@ begin
 
         when R1 =>
             o_lights_L <= "000";
-            o_lights_R <= "001";
+            o_lights_R <= "100";
 
         when R2 =>
             o_lights_L <= "000";
-            o_lights_R <= "011";
+            o_lights_R <= "110";
 
         when R3 =>
             o_lights_L <= "000";
